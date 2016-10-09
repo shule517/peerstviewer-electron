@@ -1,0 +1,30 @@
+{
+  "name": "react-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "npm install && typings install",
+    "build": "webpack --progress --colors --watch --config ./webpack.config.dev.js",
+    "static": "static ./dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shule517/React-webpack.git"
+  },
+  "keywords": [],
+  "author": "shule517",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shule517/React-webpack/issues"
+  },
+  "homepage": "https://github.com/shule517/React-webpack#readme",
+  "devDependencies": {
+    "node-static": "^0.7.9",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "ts-loader": "^0.9.0",
+    "typescript": "^2.0.3",
+    "webpack": "^1.13.2"
+  }
+}
