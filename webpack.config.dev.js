@@ -1,5 +1,8 @@
 module.exports = {
-  entry: "./src/index.tsx",
+  entry: {
+    "index": './src/index.tsx'
+    // "another index": './src/index.tsx'
+  },
   output: {
     filename: "./dist/index.js"
   },
