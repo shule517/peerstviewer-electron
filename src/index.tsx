@@ -1,6 +1,6 @@
 /// <reference path="../typings/index.d.ts" />
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import Hello from "./Hello";
+import Viewer from './viewer';
 
-ReactDOM.render(<Hello content="hello world"/>, document.getElementById('app'));
+ReactDOM.render(<Viewer/>, document.getElementById('app'));
